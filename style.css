@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #1f242b 70%, #004aad 30%);
+  height: 100vh;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-weight: 900;
+  width: 800px;
+  font-size: 37px;
+  font-family: "Open Sans";
+  color: #fff;
+  bottom: 800px;
+  right: 0;
+  margin: 0;
+}
+h1 {
+  font-family: "Host Grotesk";
+  font-weight: 600;
+  text-align: center;
+  font-size: 90px;
+  position: fixed;
+  bottom: 438px;
+  left: 280px;
+  margin: 0;
+}
+
+.nome {
+  font-size: 90px;
+  position: fixed;
+  bottom: 370px;
+  left: 370px;
+  margin: 0;
+}
+
+p {
+  font-family: "montserrat";
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #004aad;
+  background-color: #1f242b;
+  text-align: center;
+  font-size: 50px;
+  position: fixed;
+  bottom: 200px;
+  left: 200px;
+  margin: 0;
+}
+p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 50.2px;
+}
+
+.Portifolio {
+  display: flex;
+  align-items: center;
+  margin: 20px 300px;
+  justify-content: space-between;
+}
+
+.mudarCor {
+  color: #22d4fd;
+  display: inline-flex;
+}
+
+.esquerdo {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.direita {
+  width: 150px;
+}
+
+img {
+  width: 550px;
+  position: fixed;
+  bottom: 0px;
+  left: 1540px;
+  margin: 0;
+  border-radius: 180px;
+}
+
+.butaos {
+  font-size: 50px;
+  position: fixed;
+  bottom: 800px;
+  right: 1;
+  margin: 0;
+  padding: 20px 78px;
+  background-color: #001b31;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.butaos:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 51px;
+}
+
+.butao {
+  font-size: 50px;
+  position: fixed;
+  bottom: 680px;
+  right: 1;
+  margin: 0;
+  padding: 20px 117px;
+  background-color: #001b31;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.butao:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 51px;
+}
